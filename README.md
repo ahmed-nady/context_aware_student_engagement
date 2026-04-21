@@ -11,9 +11,9 @@ Existing methods for predicting student engagement typically require substantial
  Each segment is assigned an action category via the fine-tuned VLM model, generating a sequence of action predictions. Finally, we leverage the large language model to classify this entire sequence of actions, together with the classroom context, as belonging to an engaged or disengaged student. 
 The experimental results demonstrate the effectiveness of the proposed approach in identifying student engagement.
 
-# Architecture of EPAM-Net
+# Architecture of VLM-LLM Framework
 <div align=center>
-<img src ="./figures/EMAP-Net Architecture.png" width="1000"/>
+<img src ="./figures/proposedFramework.png" width="1000"/>
 </div>
 
 # Prerequisites
