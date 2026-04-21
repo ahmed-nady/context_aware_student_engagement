@@ -26,11 +26,14 @@ You may download the trained models reported in the paper via [GoogleDrive](http
 # Single student Demo
 
 You can use the following command to test on a single student video clip. 
+```shell
 python SingleStudentDemo.py
+```
 # multiple students Demo
 You can use the following command to test on video of multiple students, which requires detection and tracking.
+```shell
 python MultipleStudentsDemo.py
-
+```
 Note:  use engageConfig.py to set videos paths, etc.
 # Citation
 Please cite this work if you find it useful:
