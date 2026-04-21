@@ -20,3 +20,17 @@ The experimental results demonstrate the effectiveness of the proposed approach 
 - Python3
 - [PyTorch](http://pytorch.org/)
 - We provide the dependency file of our experimental environment, you can install all dependencies by creating a new anaconda virtual environment and running `pip install -r requirements.txt `
+# Testing Pretrained Models
+You may download the trained models reported in the paper via [GoogleDrive](https://drive.google.com/drive/folders/1yBpdM3Wt6F69HoXHpqGB-XkcItsXu6H3?usp=drive_link) and put them in folder pretrained_action_recog_models.
+
+
+# Citation
+Please cite this work if you find it useful:
+```BibTex
+@article{abdelkawy2026context,
+  title={Context Matters: Peer-Aware Student Behavioral Engagement Measurement via VLM Action Parsing and LLM Sequence Classification},
+  author={Abdelkawy, Ahmed and Elsayed, Ahmed and Ali, Asem and Farag, Aly and Tretter, Thomas and McIntyre, Michael},
+  journal={arXiv preprint arXiv:2601.06394},
+  year={2026}
+}
+ 
