@@ -1,0 +1,20 @@
+DATA:
+    ROOT: '/media/hd2/Engagement_data/StudentActionsDataset/VLMDataset/students_action_few_shots'
+    TRAIN_FILE: '/media/hd2/Nady/Measuring_student_behavioural_engagement_framework/Zero_few_shots_setting/train_few_shot_16_cvpr.txt'
+    VAL_FILE: '/media/hd2/Nady/Measuring_student_behavioural_engagement_framework/Zero_few_shots_setting/val_cvpr.txt'
+    DATASET: studentActions
+    NUM_FRAMES: 32
+    NUM_CLASSES: 13
+    LABEL_LIST: '/media/hd2/Nady/Measuring_student_behavioural_engagement_framework/Zero_few_shots_setting/labels_cvpr.csv'
+MODEL:
+    ARCH: ViT-B/16
+TRAIN:
+    BATCH_SIZE: 4 # BS 64
+    ACCUMULATION_STEPS: 4 #2
+    EPOCHS: 50
+    LR: 2.e-06
+TRAINER:
+  VT_CLIP:
+    ZS_EVAL: False # Make True only during test mode to evaluate zero-shot vanilla CLIP performance
+    USE: "both" # both refers to complete fine-tuning of CLIP (text+image encoders)
+SAVE_FREQ: 10
