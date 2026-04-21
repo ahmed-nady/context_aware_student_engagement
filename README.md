@@ -23,7 +23,15 @@ The experimental results demonstrate the effectiveness of the proposed approach 
 # Testing Pretrained Models
 You may download the trained models reported in the paper via [GoogleDrive](https://drive.google.com/drive/folders/1yBpdM3Wt6F69HoXHpqGB-XkcItsXu6H3?usp=drive_link) and put them in folder pretrained_action_recog_models.
 
+# Single student Demo
 
+You can use the following command to test on a single student video clip. 
+python SingleStudentDemo.py
+# multiple students Demo
+You can use the following command to test on video of multiple students, which requires detection and tracking.
+python MultipleStudentsDemo.py
+
+Note:  use engageConfig.py to set videos paths, etc.
 # Citation
 Please cite this work if you find it useful:
 ```BibTex
