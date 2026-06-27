@@ -1,6 +1,6 @@
 ## Context-aware-Student-Engagement
 This repo is the official implementation for **Context Matters: Peer-Aware Student Behavioral Engagement Measurement via VLM Action Parsing and LLM Sequence Classification**, which is accepted at **IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) 2026**.
-[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2601.06394) <br />
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://openaccess.thecvf.com/content/CVPR2026W/CV4Edu/papers/Abdelkawy_Context_Matters_Peer-Aware_Student_Behavioral_Engagement_Measurement_via_VLM_Action_CVPRW_2026_paper.pdf) <br />
  
 ## Abstract
 Understanding student behavior in the classroom is essential to improve both pedagogical quality and student engagement.
@@ -38,10 +38,12 @@ Note:  use engageConfig.py to set videos paths, etc.
 # Citation
 Please cite this work if you find it useful:
 ```BibTex
-@article{abdelkawy2026context,
-  title={Context Matters: Peer-Aware Student Behavioral Engagement Measurement via VLM Action Parsing and LLM Sequence Classification},
-  author={Abdelkawy, Ahmed and Elsayed, Ahmed and Ali, Asem and Farag, Aly and Tretter, Thomas and McIntyre, Michael},
-  journal={arXiv preprint arXiv:2601.06394},
-  year={2026}
+@InProceedings{Abdelkawy_2026_CVPR,
+    author    = {Abdelkawy, Ahmed and Elsayed, Ahmed and Ali, Asem and Farag, Aly and Tretter, Thomas and McIntyre, Michael},
+    title     = {Context Matters: Peer-Aware Student Behavioral Engagement Measurement via VLM Action Parsing and LLM Sequence Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    month     = {June},
+    year      = {2026},
+    pages     = {10779-10788}
 }
  
